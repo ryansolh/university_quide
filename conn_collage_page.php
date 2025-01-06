@@ -25,7 +25,7 @@ $result=$stms->get_result();
 //$numm=mysqli_num_rows($result);
 
 
-    while($row=$result->fetch_assoc()){
+    while($row=$result->fetch_assoc(
         $data[]=$row;
       }
       //print_r($data);
